@@ -12,6 +12,7 @@ function draw() {
   fill('darkred');
   triangle(225,0,0,450,450,450);
   */
+
   //opdracht 11
   noStroke();
   fill('pink');
@@ -20,4 +21,14 @@ function draw() {
   noStroke();
   fill('purple');
   triangle(0,0,0,450,450,225);
+
+  strokeWeight(5);
+  stroke('pink');
+  fill('darkred');
+  beginShape();
+  vertex(225,115);
+  vertex(300,225);
+  vertex(225,335);
+  vertex(0,225);
+  endShape(CLOSE);
 }
